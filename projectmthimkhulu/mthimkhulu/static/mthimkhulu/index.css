@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    --mtk-light-blue: #2AADED;
+    --mtk-dark-blue: #2F458E;
+    --header-height: 35dvh
+}
+
+body {
+    height: 100dvh;
+    background: linear-gradient(to top, var(--mtk-light-blue), transparent 20%);
+}
+
+header {
+    height: var(--header-height);
+    background: url(images/card-header-bg.jpg) top no-repeat;
+    background-size: cover;
+}
+
+nav {
+    height: 12dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--mtk-light-blue);
+}
+
+.nav-logo {
+    height: 100%;
+    object-fit: contain;
+}
+
+.header-content {
+    height: 23dvh;
+    background-color: #00000073;
+}
+
+.header-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.card-avatar {
+    width: 20dvh;
+    padding: 4px;
+    height: 20dvh;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+
+.card-avatar-img {
+    height: 100%;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.card-details {
+    width: 100%;
+    font-family: 'Montserrat', 'Urbanist';
+}
+
+.card-name {
+    color: #ffffff;
+    font-weight: 700;
+    width: max-content;
+}
+
+.card-title {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--mtk-light-blue)
+}
+
+#card-greeting {
+    margin-top: 5dvh;
+    text-align: center;    
+}
+
+.greeting-text {
+    font-weight: 600;
+    font-family: 'Urbanist';
+}
+
+.interactions-container {
+}
+
+.card-button {
+    display: flex;
+    font-weight: 700;
+    color: #ffffff;
+    border-radius: 0.3rem;
+    align-items: center;
+    font-family: 'Montserrat';
+    text-decoration: none;
+    justify-content: center;
+    background-color: var(--mtk-dark-blue);
+}
+
+.whatsapp-button {
+    background-color: #25D366;
+}
