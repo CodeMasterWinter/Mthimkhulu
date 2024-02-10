@@ -1,0 +1,8 @@
+.idea/
+mthimkhulu/__pycache__/
+virtual/
+venv/
+db.sqlite3
+mthimkhulu/migrations/__pycache__/
+mthimkhulu/migrations
+projectmthimkhulu/__pycache__/
