@@ -135,3 +135,14 @@ nav {
     font-family: 'Montserrat';
     color: var(--mtk-dark-blue);
 }
+
+.share-icon {
+    font-size: 2rem;
+    color: var(--mtk-dark-blue);
+}
+
+.website-button {
+    color: var(--mtk-light-blue);
+    background-color: #ffffff;
+    border: 2px solid var(--mtk-light-blue);
+}

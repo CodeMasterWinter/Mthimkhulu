@@ -57,23 +57,24 @@
                 <a href="https://wa.me/0657141053" class="card-button whatsapp-button col-6 py-2">My WhatsApp</a>
                 <a href="https://web.facebook.com/MthimkhuluProperty" class="card-button facebook-button col-6 py-2">Facebook</a>
                 <a href="https://www.mthimkhuluproperty.co.za/AgentDetails.aspx?AgentName=Musa%20Hadebe&propstyp=all" class="card-button property-button col-12 py-2">See my properties!</a>
+                <a href="https://www.mthimkhuluproperty.co.za" class="card-button website-button col-12 py-2">Go to website</a>
             </div>
         </div>
     </section>
     <section id="share-bar">
         <div class="container-xxl share-container text-center">
             <h4 class="share-title mt-2">Share this card</h4>
-            <div class="row share-row mx-2">
-                <a href="https://twitter.com/share?url='http://localhost'&text=Musa Hadebe has shared his business card with you!">
+            <div class="row share-row mx-2 p-2">
+                <a class="col-3 share-link" href="https://twitter.com/share?url={{ request.build_absolute_uri }}&text=Musa Hadebe has shared his business card with you!">
                     <i class="fa-brands fa-square-twitter share-icon"></i>
                 </a>
-                <a href="https://twitter.com/share?url='http://localhost'&text=Musa Hadebe has shared his business card with you!">
+                <a class="col-3 share-link" href="https://wa.me/?text=Musa%20Hadebe%20has%20shared%20his%20virtual%20business%20card:%20{{ request.build_absolute_uri }}">
                     <i class="fa-brands fa-square-whatsapp share-icon"></i>
                 </a>
-                <a href="https://twitter.com/share?url='http://localhost'&text=Musa Hadebe has shared his business card with you!">
+                <a class="col-3 share-link" href="https://twitter.com/share?url={{ request.build_absolute_uri }}&text=Musa Hadebe has shared his business card with you!">
                     <i class="fa-solid fa-envelope share-icon"></i>
                 </a>
-                <a href="https://www.facebook.com/sharer/sharer.php?u=127.0.0.1">
+                <a class="col-3 share-link" href="https://www.facebook.com/sharer/sharer.php?u={{ request.build_absolute_uri }}&amp;quote=Musa%20Hadebe%20has%20shared%20his%20business%20card%20with%20you">
                     <i class="fa-brands fa-square-facebook share-icon"></i>
                 </a>
             </div>
