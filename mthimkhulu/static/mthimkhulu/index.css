@@ -80,11 +80,8 @@ nav {
 }
 
 .greeting-text {
-    font-weight: 600;
-    font-family: 'Urbanist';
-}
-
-.interactions-container {
+    font-weight: 700;
+    font-family: 'Montserrat';
 }
 
 .card-button {
@@ -99,6 +96,15 @@ nav {
     background-color: var(--mtk-dark-blue);
 }
 
+.call-button, .mail-button {
+    width: 48%;
+    background-color: var(--mtk-light-blue);
+}
+
 .whatsapp-button {
     background-color: #25D366;
+}
+
+.form {
+    max-width: 100%;
 }
