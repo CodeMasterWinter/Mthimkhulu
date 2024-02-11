@@ -74,14 +74,8 @@ nav {
     color: var(--mtk-light-blue)
 }
 
-#card-greeting {
-    margin-top: 5dvh;
-    text-align: center;    
-}
-
-.greeting-text {
-    font-weight: 700;
-    font-family: 'Montserrat';
+#card-interactions {
+    margin-top: 3dvh;
 }
 
 .card-button {
@@ -96,7 +90,12 @@ nav {
     background-color: var(--mtk-dark-blue);
 }
 
-.call-button, .mail-button {
+#card-details {
+    background-color: var(--mtk-dark-blue);
+}
+
+.call-button, .mail-button,
+.whatsapp-button, .facebook-button {
     width: 48%;
     background-color: var(--mtk-light-blue);
 }
@@ -105,6 +104,34 @@ nav {
     background-color: #25D366;
 }
 
-.form {
-    max-width: 100%;
+.facebook-button {
+    background-color: var(--mtk-dark-blue);
+}
+
+.property-button {
+    background-color: var(--mtk-light-blue);
+}
+
+.info-block {
+    display: flex;
+    color: #ffffff;
+    font-weight: 700;
+    align-items: center;
+    font-family: 'Montserrat';
+}
+
+.info-icon {
+    color: var(--mtk-dark-blue);
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+
+.share-row {
+    border: 2px solid var(--mtk-dark-blue);
+}
+
+.share-title {
+    font-weight: 700;
+    font-family: 'Montserrat';
+    color: var(--mtk-dark-blue);
 }
